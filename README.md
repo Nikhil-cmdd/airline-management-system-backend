@@ -36,10 +36,10 @@ A **Spring Boot REST API** for managing airlines, flights, employees, passengers
 | Layer | Technology |
 |-----|-----------|
 | Language | Java 25 |
-| Framework | Spring Boot |
+| Framework | Spring Boot 3.x |
 | Security | Spring Security + JWT |
-| ORM | Hibernate / JPA |
-| Database | MySQL |
+| Data Access | Spring Data JPA (Hibernate) |
+| Database | MySQL 8.0 / H2 (Dev) |
 | Build Tool | Maven |
 | Containerization | Docker |
 | API Testing | Postman |
