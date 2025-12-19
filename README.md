@@ -162,9 +162,5 @@ mvn spring-boot:run
 
 ## 👨‍💻 Author
 
-**Nikhil**  
+**Nikhil Singh**  
 Backend Developer | Java | Spring Boot | JWT | Docker
-
----
-
-⭐ If you like this project, give it a star!
