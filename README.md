@@ -87,19 +87,16 @@ docker push <dockerhub-username>/airline-backend
 - Local database name: `airline_db`
 - All **H2-related configurations are commented out**
 - Users can switch to H2 or any other DB if required
-
-# ===============================
+---
 # MySQL Database Configuration
-# ===============================
 spring.datasource.url=jdbc:mysql://localhost:3306/airline_db
 spring.datasource.username=root
 spring.datasource.password=your_password
-
-# ===============================
+---
 # JPA / Hibernate Configuration
-# ===============================
-spring.jpa.hibernate.ddl-auto=update
 
+spring.jpa.hibernate.ddl-auto=update
+---
 # Shows SQL queries executed by Hibernate in the terminal
 spring.jpa.show-sql=true
 
